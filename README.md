@@ -15,7 +15,7 @@ Installation
 Node.JS (Server):
 
 ```bash
-npm install forAllAsync
+npm install forallasync
 ```
 
 Browser Installation
