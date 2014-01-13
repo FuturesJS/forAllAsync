@@ -40,6 +40,7 @@
       then: function (cb) {
         cbs.push(cb);
         onNextBound();
+        return this;
       }
     };
   }

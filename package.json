@@ -1,9 +1,10 @@
 {
   "name": "forallasync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Like forEachAsync and Join had a baby: sequences out n batches of async functions rather than all at once. Part of FuturesJS (Browser, Node.js, Bower, Pakmanager)",
   "homepage": "https://github.com/FuturesJS/forAllAsync",
   "keywords": [
+    "futuresjs",
     "flow-control",
     "async",
     "asynchronous",
