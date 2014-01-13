@@ -46,7 +46,7 @@ Usage
 ;(function (exports) {
   'use strict';
 
-  var forAllAsync = exports.forAllAsync || require('forAllAsync').forAllAsync
+  var forAllAsync = exports.forAllAsync || require('forallasync').forAllAsync
     , maxCallsAtOnce = 4 // default
     , arr
     ;
