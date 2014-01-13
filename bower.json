@@ -1,0 +1,34 @@
+{
+  "name": "forAllAsync",
+  "main": "forAllAsync.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FuturesJS/forAllAsync",
+  "authors": [
+    "AJ ONeal <coolaj86@gmail.com>"
+  ],
+  "description": "It's like forEachAsync and Join had a baby that can batch out n async calls at a time. Part of FuturesJS (for Browser, Node.js, Bower, Pakmanager)",
+  "keywords": [
+    "flow-control",
+    "async",
+    "asynchronous",
+    "futures",
+    "promises",
+    "deferreds",
+    "join",
+    "forEachAsync",
+    "forAllAsync",
+    "lateral",
+    "parallel",
+    "synchronize",
+    "util",
+    "browser"
+  ],
+  "license": "Apache-v2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
