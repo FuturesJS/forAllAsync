@@ -16,7 +16,7 @@
     console.log(item);
     complete();
   }, 4).then(function () {
-    console.log('finished uppercase batch');
+    console.log('finished uppercase batch', arr2.length);
   });
 
   forAllAsync(arr, function (complete, item, i) {
@@ -26,6 +26,6 @@
       complete();
     }, timeout);
   }, 4).then(function () {
-    console.log('finished lowercase batch');
+    console.log('finished lowercase batch', arr.length);
   });
 }());

@@ -5,14 +5,17 @@
   // should be more like sequence than join
   function forAllAsync(arr, fn, nThreads) {
     // how many threads are allowed
-    nThreads = nThreads || 4;
+    nThreads = nThreads || 100;
 
-    var cbs = []
+    var arrOrig = arr
+      , cbs = []
       // how many threads are underway
       , begun = 0
       // how many have been run
       , finished = 0
       ;
+
+    arr = arrOrig.slice(0);
 
     function onFinishedBound() {
       finished += 1;
